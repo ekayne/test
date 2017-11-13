@@ -7,14 +7,14 @@ long main()
 {
 
 	printf("Eine Zahl, bitte.\n");
-	scanf("%d",&a);
+	scanf("%ld",&a);
 
 	printf("Noch eine Zahl, bitte.\n");
-	scanf("%d",&b);
+	scanf("%ld",&b);
 
 e = a + b;
 
-printf("%d addiert mit %d ergibt %d.\n", a, b, e);
+printf("%ld addiert mit %ld ergibt %ld.\n", a, b, e);
 
 return 0;
 }
